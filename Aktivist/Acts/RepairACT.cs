@@ -1,8 +1,8 @@
 ﻿namespace AktivistBL.Acts
 {
-    public class WWACT : BaseACT
+    public class RepairACT : BaseACT
     {
-        public string? Reason { get; set; }
+        public string? Result { get; set; }
 
         public override string GenerateContent()
         {
